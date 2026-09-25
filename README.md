@@ -95,8 +95,8 @@ AI 只负责写"这步怎么用""这段时间重点是什么"。这样即使模�
 ## 快速开始
 
 ```bash
-git clone <repo>
-cd skin-ai
+git clone https://github.com/hkkdling-sketch/skin-advisor.git
+cd skin-advisor
 npm install
 npm run dev          # → http://127.0.0.1:3000
 ```
