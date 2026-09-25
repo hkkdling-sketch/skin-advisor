@@ -1,0 +1,1331 @@
+{
+  "products": [
+    {
+      "id": "cleanser-1",
+      "name": "氨基酸温和洁面乳",
+      "category": "cleanser",
+      "price": 39,
+      "priceLevel": "under100",
+      "ingredients": [
+        "氨基酸表面活性剂",
+        "甘油",
+        "甘油脂肪酸酯"
+      ],
+      "skinTypes": [
+        "干性",
+        "油性",
+        "混合性",
+        "敏感性"
+      ],
+      "benefits": "温和清洁，不紧绷，保持皮肤水油平衡",
+      "suitableProblems": [
+        "出油",
+        "毛孔粗大",
+        "痘痘"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "cleanser-2",
+      "name": "清透洁面乳",
+      "category": "cleanser",
+      "price": 49,
+      "priceLevel": "under100",
+      "ingredients": [
+        "薄荷提取物",
+        "角鲨烷",
+        "甘油"
+      ],
+      "skinTypes": [
+        "油性",
+        "混合性"
+      ],
+      "benefits": "温和清洁，清爽不油腻",
+      "suitableProblems": [
+        "出油",
+        "T区油光"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "toner-1",
+      "name": "保湿爽肤水",
+      "category": "toner",
+      "price": 89,
+      "priceLevel": "under200",
+      "ingredients": [
+        "透明质酸",
+        "洋甘菊提取物",
+        "甘油"
+      ],
+      "skinTypes": [
+        "干性",
+        "敏感性",
+        "混合性"
+      ],
+      "benefits": "深层补水，平衡水油",
+      "suitableProblems": [
+        "干燥",
+        "紧绷"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "toner-2",
+      "name": "柔肤爽肤水",
+      "category": "toner",
+      "price": 120,
+      "priceLevel": "under200",
+      "ingredients": [
+        "发酵滤液",
+        "甘树脂",
+        "甘油"
+      ],
+      "skinTypes": [
+        "干性",
+        "成熟肌"
+      ],
+      "benefits": "补水保湿，柔润肤质",
+      "suitableProblems": [
+        "干燥",
+        "暗沉"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "serum-1",
+      "name": "清爽提亮精华",
+      "category": "serum",
+      "price": 139,
+      "priceLevel": "under200",
+      "ingredients": [
+        "水杨酸",
+        "烟酰胺",
+        "虾青素"
+      ],
+      "skinTypes": [
+        "油性",
+        "混合性"
+      ],
+      "benefits": "清爽不黏腻，提亮肤色",
+      "suitableProblems": [
+        "出油",
+        "痘痘",
+        "暗沉"
+      ],
+      "avoidWith": [
+        "强效AHA/BHA"
+      ]
+    },
+    {
+      "id": "serum-2",
+      "name": "深层补水精华",
+      "category": "serum",
+      "price": 220,
+      "priceLevel": "under300",
+      "ingredients": [
+        "透明质酸",
+        "神经酰胺",
+        "珍珠粉"
+      ],
+      "skinTypes": [
+        "干性",
+        "敏感性",
+        "混合性"
+      ],
+      "benefits": "深层补水，锁水保湿",
+      "suitableProblems": [
+        "干燥",
+        "缺水",
+        "细纹"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "moisturizer-1",
+      "name": "轻薄保湿乳液",
+      "category": "moisturizer",
+      "price": 69,
+      "priceLevel": "under100",
+      "ingredients": [
+        "仙人掌提取物",
+        "甘油",
+        "角鲨烷"
+      ],
+      "skinTypes": [
+        "油性",
+        "混合性",
+        "敏感性"
+      ],
+      "benefits": "轻薄不油腻，持久保湿",
+      "suitableProblems": [
+        "出油",
+        "缺水",
+        "毛孔"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "moisturizer-2",
+      "name": "滋养夜间面霜",
+      "category": "moisturizer",
+      "price": 110,
+      "priceLevel": "under200",
+      "ingredients": [
+        "乳木果油",
+        "角鲨烷",
+        "维生素E"
+      ],
+      "skinTypes": [
+        "干性",
+        "成熟肌"
+      ],
+      "benefits": "深层滋养，修护屏障",
+      "suitableProblems": [
+        "干燥",
+        "屏障受损"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "sunscreen-1",
+      "name": "轻透防晒霜 SPF50",
+      "category": "sunscreen",
+      "price": 149,
+      "priceLevel": "under200",
+      "ingredients": [
+        "氧化锌",
+        "二氧化钛",
+        "维生素E"
+      ],
+      "skinTypes": [
+        "所有肤质"
+      ],
+      "benefits": "物理防晒，不刺激",
+      "suitableProblems": [
+        "所有问题"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "sunscreen-2",
+      "name": "清爽防晒凝胶",
+      "category": "sunscreen",
+      "price": 99,
+      "priceLevel": "under200",
+      "ingredients": [
+        "芦荟提取物",
+        "维生素C",
+        "甘油"
+      ],
+      "skinTypes": [
+        "油性",
+        "混合性",
+        "痘痘肌"
+      ],
+      "benefits": "清爽不粘腻，帮助抵御紫外线",
+      "suitableProblems": [
+        "出油",
+        "痘痘",
+        "所有问题"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "acne-treatment-1",
+      "name": "局部护理贴",
+      "category": "treatment",
+      "price": 25,
+      "priceLevel": "under100",
+      "ingredients": [
+        "水杨酸",
+        "氧化锌",
+        "透明质酸"
+      ],
+      "skinTypes": [
+        "油性",
+        "混合性",
+        "痘痘肌"
+      ],
+      "benefits": "局部贴护，帮助保持清洁",
+      "suitableProblems": [
+        "痘痘",
+        "少量痘痘"
+      ],
+      "avoidWith": [
+        "水杨酸类产品"
+      ]
+    },
+    {
+      "id": "acne-treatment-2",
+      "name": "舒缓修护精华",
+      "category": "treatment",
+      "price": 59,
+      "priceLevel": "under100",
+      "ingredients": [
+        "氢化酪蛋白碎片",
+        "神经酰胺",
+        "积雪草提取物"
+      ],
+      "skinTypes": [
+        "敏感性",
+        "干性",
+        "油性"
+      ],
+      "benefits": "修护屏障，舒缓泛红",
+      "suitableProblems": [
+        "痘痘",
+        "泛红",
+        "痘印"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "cleanser-3",
+      "name": "温和氨基酸洁面泡沫",
+      "category": "cleanser",
+      "price": 150,
+      "priceLevel": "under200",
+      "ingredients": [
+        "氨基酸表面活性剂",
+        "甘油",
+        "枣果提取物"
+      ],
+      "skinTypes": [
+        "敏感性",
+        "干性",
+        "所有肤质"
+      ],
+      "benefits": "弱酸性配方，洗后不紧绷，温和不刺激",
+      "suitableProblems": [
+        "干燥",
+        "紧绷",
+        "泛红",
+        "屏障受损"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "cleanser-4",
+      "name": "清爽洁面乳",
+      "category": "cleanser",
+      "price": 45,
+      "priceLevel": "under100",
+      "ingredients": [
+        "水杨酸",
+        "茶树精油",
+        "薄荷提取物"
+      ],
+      "skinTypes": [
+        "油性",
+        "混合性",
+        "痘痘肌"
+      ],
+      "benefits": "深层清洁多余油脂，帮助保持洁净",
+      "suitableProblems": [
+        "出油",
+        "痘痘",
+        "毛孔",
+        "黑头"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "cleanser-5",
+      "name": "净润卸妆洁面二合一",
+      "category": "cleanser",
+      "price": 280,
+      "priceLevel": "under300",
+      "ingredients": [
+        "植物油",
+        "甘油",
+        "角鲨烷"
+      ],
+      "skinTypes": [
+        "干性",
+        "混合性",
+        "成熟肌"
+      ],
+      "benefits": "卸妆洁面一步完成，洗后柔软不干",
+      "suitableProblems": [
+        "干燥",
+        "缺水",
+        "紧绷"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "cleanser-6",
+      "name": "深层净化洁颜粉",
+      "category": "cleanser",
+      "price": 390,
+      "priceLevel": "under500",
+      "ingredients": [
+        "酵素粉",
+        "人参提取物",
+        "甘油"
+      ],
+      "skinTypes": [
+        "所有肤质"
+      ],
+      "benefits": "酵素温和代谢老废角质，洗后通透",
+      "suitableProblems": [
+        "毛孔",
+        "暗沉",
+        "角质",
+        "黑头"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "toner-3",
+      "name": "烟酰胺提亮爽肤水",
+      "category": "toner",
+      "price": 79,
+      "priceLevel": "under100",
+      "ingredients": [
+        "烟酰胺",
+        "熊果苷",
+        "甘油"
+      ],
+      "skinTypes": [
+        "所有肤质"
+      ],
+      "benefits": "改善暗沉不均，补水提亮",
+      "suitableProblems": [
+        "暗沉",
+        "痘印",
+        "缺水"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "toner-4",
+      "name": "清爽调理水",
+      "category": "toner",
+      "price": 129,
+      "priceLevel": "under200",
+      "ingredients": [
+        "乳酸",
+        "金缕梅提取物",
+        "薄荷提取物"
+      ],
+      "skinTypes": [
+        "油性",
+        "混合性"
+      ],
+      "benefits": "清爽水感，帮助维持哑光肤感",
+      "suitableProblems": [
+        "出油",
+        "毛孔",
+        "黑头"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "toner-5",
+      "name": "舒缓修护喷雾",
+      "category": "toner",
+      "price": 99,
+      "priceLevel": "under100",
+      "ingredients": [
+        "活泉水",
+        "甘油",
+        "泛醇"
+      ],
+      "skinTypes": [
+        "敏感性",
+        "所有肤质"
+      ],
+      "benefits": "即时舒缓泛红刺痛，随时补水",
+      "suitableProblems": [
+        "泛红",
+        "干燥",
+        "紧绷",
+        "屏障受损"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "toner-6",
+      "name": "赋活精华水",
+      "category": "toner",
+      "price": 1100,
+      "priceLevel": "over1000",
+      "ingredients": [
+        "海藻提取物",
+        "甘油",
+        "维生素E"
+      ],
+      "skinTypes": [
+        "干性",
+        "成熟肌",
+        "所有肤质"
+      ],
+      "benefits": "密集赋活，改善干纹与暗哑",
+      "suitableProblems": [
+        "干燥",
+        "细纹",
+        "暗沉",
+        "缺水"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "serum-3",
+      "name": "光感提亮精华",
+      "category": "serum",
+      "price": 189,
+      "priceLevel": "under200",
+      "ingredients": [
+        "烟酰胺",
+        "维生素C衍生物",
+        "泛醇"
+      ],
+      "skinTypes": [
+        "所有肤质"
+      ],
+      "benefits": "提亮肤色，匀净肤色观感",
+      "suitableProblems": [
+        "暗沉",
+        "痘印"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "serum-4",
+      "name": "温和传明酸提亮精华",
+      "category": "serum",
+      "price": 168,
+      "priceLevel": "under200",
+      "ingredients": [
+        "传明酸",
+        "积雪草提取物",
+        "甘草酸二钾"
+      ],
+      "skinTypes": [
+        "敏感性",
+        "干性"
+      ],
+      "benefits": "敏感肌也能用的温和提亮，兼顾舒缓",
+      "suitableProblems": [
+        "暗沉",
+        "泛红",
+        "痘印"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "serum-5",
+      "name": "弹润修护精华",
+      "category": "serum",
+      "price": 269,
+      "priceLevel": "under300",
+      "ingredients": [
+        "视黄醇",
+        "胜肽",
+        "透明质酸"
+      ],
+      "skinTypes": [
+        "成熟肌",
+        "干性",
+        "混合性"
+      ],
+      "benefits": "改善细纹，提升紧致度",
+      "suitableProblems": [
+        "细纹",
+        "松弛",
+        "缺水"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "serum-6",
+      "name": "匀净提亮精华",
+      "category": "serum",
+      "price": 780,
+      "priceLevel": "over500",
+      "ingredients": [
+        "鞣花酸",
+        "维生素C",
+        "甘油"
+      ],
+      "skinTypes": [
+        "干性",
+        "混合性",
+        "所有肤质"
+      ],
+      "benefits": "集中匀净，整体提亮匀净",
+      "suitableProblems": [
+        "暗沉",
+        "色斑",
+        "痘印"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "serum-7",
+      "name": "水杨酸毛孔精华",
+      "category": "serum",
+      "price": 218,
+      "priceLevel": "under300",
+      "ingredients": [
+        "水杨酸",
+        "烟酰胺",
+        "泛醇"
+      ],
+      "skinTypes": [
+        "油性",
+        "痘痘肌",
+        "混合性"
+      ],
+      "benefits": "疏通毛孔，改善粗糙肤感",
+      "suitableProblems": [
+        "痘痘",
+        "毛孔",
+        "粗糙",
+        "黑头",
+        "出油"
+      ],
+      "avoidWith": [
+        "强效AHA/BHA"
+      ]
+    },
+    {
+      "id": "serum-8",
+      "name": "多重玻尿酸原液",
+      "category": "serum",
+      "price": 89,
+      "priceLevel": "under100",
+      "ingredients": [
+        "透明质酸",
+        "泛醇",
+        "甘油"
+      ],
+      "skinTypes": [
+        "所有肤质"
+      ],
+      "benefits": "多重分子玻尿酸分层补水",
+      "suitableProblems": [
+        "缺水",
+        "干燥",
+        "紧绷"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "essence-1",
+      "name": "酵母护肤精华露",
+      "category": "essence",
+      "price": 1540,
+      "priceLevel": "over1000",
+      "ingredients": [
+        "PITERA",
+        "烟酰胺",
+        "甘油"
+      ],
+      "skinTypes": [
+        "所有肤质"
+      ],
+      "benefits": "调理肤质，提升通透感与细腻度",
+      "suitableProblems": [
+        "暗沉",
+        "细纹",
+        "毛孔",
+        "缺水"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "essence-2",
+      "name": "肌底修护精华",
+      "category": "essence",
+      "price": 590,
+      "priceLevel": "over500",
+      "ingredients": [
+        "灵芝提取物",
+        "甘油",
+        "神经酰胺"
+      ],
+      "skinTypes": [
+        "所有肤质"
+      ],
+      "benefits": "强化肌底抵御力，改善泛红与干燥",
+      "suitableProblems": [
+        "屏障受损",
+        "泛红",
+        "干燥",
+        "缺水"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "essence-3",
+      "name": "玫瑰精粹水油",
+      "category": "essence",
+      "price": 420,
+      "priceLevel": "under500",
+      "ingredients": [
+        "玫瑰精油",
+        "角鲨烷",
+        "维生素E"
+      ],
+      "skinTypes": [
+        "干性",
+        "成熟肌"
+      ],
+      "benefits": "水油同补，改善干纹与粗糙",
+      "suitableProblems": [
+        "干燥",
+        "缺水",
+        "细纹"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "moisturizer-3",
+      "name": "清爽水感凝露",
+      "category": "moisturizer",
+      "price": 235,
+      "priceLevel": "under300",
+      "ingredients": [
+        "透明质酸",
+        "海藻糖",
+        "泛醇"
+      ],
+      "skinTypes": [
+        "油性",
+        "混合性"
+      ],
+      "benefits": "无油配方，补水同时保持清爽",
+      "suitableProblems": [
+        "出油",
+        "毛孔",
+        "缺水"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "moisturizer-4",
+      "name": "屏障修护霜",
+      "category": "moisturizer",
+      "price": 128,
+      "priceLevel": "under200",
+      "ingredients": [
+        "神经酰胺",
+        "马齿苋提取物",
+        "泛醇"
+      ],
+      "skinTypes": [
+        "敏感性",
+        "干性"
+      ],
+      "benefits": "修护皮肤屏障，缓解泛红干痒",
+      "suitableProblems": [
+        "泛红",
+        "屏障受损",
+        "干燥",
+        "紧绷"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "moisturizer-5",
+      "name": "弹润滋养面霜",
+      "category": "moisturizer",
+      "price": 890,
+      "priceLevel": "over500",
+      "ingredients": [
+        "胜肽",
+        "玻色因",
+        "维生素E"
+      ],
+      "skinTypes": [
+        "成熟肌",
+        "干性"
+      ],
+      "benefits": "提升弹力，改善干纹与松弛",
+      "suitableProblems": [
+        "细纹",
+        "松弛",
+        "干燥"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "moisturizer-6",
+      "name": "睡眠免洗面膜",
+      "category": "moisturizer",
+      "price": 89,
+      "priceLevel": "under100",
+      "ingredients": [
+        "绿茶提取物",
+        "甘油",
+        "泛醇"
+      ],
+      "skinTypes": [
+        "所有肤质"
+      ],
+      "benefits": "夜间厚敷，次晨水润透亮",
+      "suitableProblems": [
+        "缺水",
+        "干燥",
+        "暗沉"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "moisturizer-7",
+      "name": "高保湿面霜",
+      "category": "moisturizer",
+      "price": 315,
+      "priceLevel": "under500",
+      "ingredients": [
+        "冰川保护蛋白",
+        "角鲨烷",
+        "甘油"
+      ],
+      "skinTypes": [
+        "干性",
+        "混合性",
+        "敏感性"
+      ],
+      "benefits": "长效锁水，改善脱皮紧绷",
+      "suitableProblems": [
+        "干燥",
+        "缺水",
+        "紧绷",
+        "屏障受损"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "sunscreen-3",
+      "name": "敏感肌专用防晒乳",
+      "category": "sunscreen",
+      "price": 168,
+      "priceLevel": "under200",
+      "ingredients": [
+        "麦色滤",
+        "甘油",
+        "温泉水"
+      ],
+      "skinTypes": [
+        "敏感性",
+        "所有肤质"
+      ],
+      "benefits": "高倍防护，敏感肌耐受性好",
+      "suitableProblems": [
+        "所有问题"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "sunscreen-4",
+      "name": "滋润防晒霜",
+      "category": "sunscreen",
+      "price": 380,
+      "priceLevel": "under500",
+      "ingredients": [
+        "氧化锌",
+        "透明质酸",
+        "维生素E"
+      ],
+      "skinTypes": [
+        "干性",
+        "成熟肌",
+        "所有肤质"
+      ],
+      "benefits": "防晒同时抗氧，日常防护",
+      "suitableProblems": [
+        "所有问题",
+        "细纹",
+        "暗沉"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "sunscreen-5",
+      "name": "温和物理防晒乳",
+      "category": "sunscreen",
+      "price": 99,
+      "priceLevel": "under100",
+      "ingredients": [
+        "二氧化钛",
+        "甘油",
+        "维生素E"
+      ],
+      "skinTypes": [
+        "敏感性",
+        "干性",
+        "所有肤质"
+      ],
+      "benefits": "纯物理防晒，低刺激不泛白",
+      "suitableProblems": [
+        "所有问题"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "mask-1",
+      "name": "提亮面膜（5片）",
+      "category": "mask",
+      "price": 59,
+      "priceLevel": "under100",
+      "ingredients": [
+        "熊果苷",
+        "透明质酸",
+        "烟酰胺"
+      ],
+      "skinTypes": [
+        "所有肤质"
+      ],
+      "benefits": "集中提亮，改善熬夜暗沉",
+      "suitableProblems": [
+        "暗沉",
+        "缺水"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "mask-2",
+      "name": "舒缓修护面膜（5片）",
+      "category": "mask",
+      "price": 99,
+      "priceLevel": "under100",
+      "ingredients": [
+        "积雪草提取物",
+        "马齿苋提取物",
+        "泛醇"
+      ],
+      "skinTypes": [
+        "敏感性",
+        "所有肤质"
+      ],
+      "benefits": "镇静退红，补水准入不刺激",
+      "suitableProblems": [
+        "泛红",
+        "干燥",
+        "屏障受损"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "mask-3",
+      "name": "清洁泥膜",
+      "category": "mask",
+      "price": 219,
+      "priceLevel": "under300",
+      "ingredients": [
+        "高岭土",
+        "膨润土",
+        "芦荟提取物"
+      ],
+      "skinTypes": [
+        "油性",
+        "混合性"
+      ],
+      "benefits": "吸附多余油脂，深层清洁毛孔",
+      "suitableProblems": [
+        "毛孔",
+        "黑头",
+        "出油"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "mask-4",
+      "name": "弹润滋养面膜",
+      "category": "mask",
+      "price": 620,
+      "priceLevel": "over500",
+      "ingredients": [
+        "胜肽",
+        "胶原蛋白",
+        "维生素E"
+      ],
+      "skinTypes": [
+        "成熟肌",
+        "干性"
+      ],
+      "benefits": "密集紧致，改善松弛与细纹",
+      "suitableProblems": [
+        "细纹",
+        "松弛",
+        "干燥"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "treatment-3",
+      "name": "匀净修护凝胶",
+      "category": "treatment",
+      "price": 480,
+      "priceLevel": "under500",
+      "ingredients": [
+        "积雪草苷",
+        "烟酰胺",
+        "泛醇"
+      ],
+      "skinTypes": [
+        "所有肤质"
+      ],
+      "benefits": "加速痘印淡退，修护受损部位",
+      "suitableProblems": [
+        "痘印",
+        "泛红",
+        "暗沉"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "treatment-4",
+      "name": "视黄醇夜间修护",
+      "category": "treatment",
+      "price": 189,
+      "priceLevel": "under200",
+      "ingredients": [
+        "视黄醇",
+        "透明质酸",
+        "维生素E"
+      ],
+      "skinTypes": [
+        "混合性",
+        "油性",
+        "成熟肌"
+      ],
+      "benefits": "夜间促代谢，改善毛孔与细纹",
+      "suitableProblems": [
+        "细纹",
+        "毛孔",
+        "痘痘",
+        "暗沉"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "treatment-5",
+      "name": "舒缓泛红修护霜",
+      "category": "treatment",
+      "price": 145,
+      "priceLevel": "under200",
+      "ingredients": [
+        "神经酰胺",
+        "温泉水",
+        "泛醇"
+      ],
+      "skinTypes": [
+        "敏感性",
+        "干性"
+      ],
+      "benefits": "降低灼热感，修护泛红区域",
+      "suitableProblems": [
+        "泛红",
+        "屏障受损",
+        "干燥"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "treatment-6",
+      "name": "角质调理液",
+      "category": "treatment",
+      "price": 199,
+      "priceLevel": "under200",
+      "ingredients": [
+        "杏仁酸",
+        "水杨酸",
+        "泛醇"
+      ],
+      "skinTypes": [
+        "油性",
+        "痘痘肌",
+        "混合性"
+      ],
+      "benefits": "温和溶解角栓，改善粗糙与黑头观感",
+      "suitableProblems": [
+        "粗糙",
+        "黑头",
+        "毛孔",
+        "痘痘"
+      ],
+      "avoidWith": [
+        "强效AHA/BHA"
+      ]
+    },
+    {
+      "id": "eye-1",
+      "name": "保湿眼霜",
+      "category": "eye-cream",
+      "price": 99,
+      "priceLevel": "under100",
+      "ingredients": [
+        "透明质酸",
+        "甘油",
+        "维生素E"
+      ],
+      "skinTypes": [
+        "所有肤质"
+      ],
+      "benefits": "轻薄保湿，妆前打底更服帖",
+      "suitableProblems": [
+        "细纹",
+        "缺水",
+        "干燥"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "eye-2",
+      "name": "滋养修护眼霜",
+      "category": "eye-cream",
+      "price": 560,
+      "priceLevel": "over500",
+      "ingredients": [
+        "胜肽",
+        "咖啡因",
+        "玻色因"
+      ],
+      "skinTypes": [
+        "成熟肌",
+        "干性"
+      ],
+      "benefits": "改善眼周细纹，提升紧实度",
+      "suitableProblems": [
+        "细纹",
+        "松弛",
+        "干燥"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "eye-3",
+      "name": "亮眼精华",
+      "category": "eye-cream",
+      "price": 495,
+      "priceLevel": "under500",
+      "ingredients": [
+        "咖啡因",
+        "烟酰胺",
+        "维生素C"
+      ],
+      "skinTypes": [
+        "所有肤质"
+      ],
+      "benefits": "改善眼周暗沉与浮肿",
+      "suitableProblems": [
+        "暗沉",
+        "细纹",
+        "缺水"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "exfoliant-1",
+      "name": "温和去角质啫喱",
+      "category": "exfoliant",
+      "price": 89,
+      "priceLevel": "under100",
+      "ingredients": [
+        "乳酸",
+        "木瓜酵素",
+        "甘油"
+      ],
+      "skinTypes": [
+        "所有肤质"
+      ],
+      "benefits": "温和代谢角质，提亮不伤肤",
+      "suitableProblems": [
+        "角质",
+        "毛孔",
+        "暗沉"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "exfoliant-2",
+      "name": "果酸角质棉片",
+      "category": "exfoliant",
+      "price": 179,
+      "priceLevel": "under200",
+      "ingredients": [
+        "甘醇酸",
+        "水杨酸",
+        "泛醇"
+      ],
+      "skinTypes": [
+        "油性",
+        "混合性",
+        "痘痘肌"
+      ],
+      "benefits": "擦拭式角质护理，改善粗糙肤感",
+      "suitableProblems": [
+        "毛孔",
+        "粗糙",
+        "暗沉",
+        "黑头"
+      ],
+      "avoidWith": []
+    },
+    {
+      "id": "exfoliant-3",
+      "name": "酵素洁颜粉",
+      "category": "exfoliant",
+      "price": 145,
+      "priceLevel": "under200",
+      "ingredients": [
+        "蛋白酶",
+        "氨基酸",
+        "甘油"
+      ],
+      "skinTypes": [
+        "敏感性",
+        "干性",
+        "所有肤质"
+      ],
+      "benefits": "无磨砂颗粒，敏感肌也能去角质",
+      "suitableProblems": [
+        "角质",
+        "暗沉",
+        "毛孔"
+      ],
+      "avoidWith": []
+    },
+    {
+      "category": "moisturizer",
+      "price": 45,
+      "name": "清润保湿凝露",
+      "ingredients": [
+        "透明质酸钠",
+        "甘油",
+        "泛醇"
+      ],
+      "skinTypes": [
+        "干性",
+        "混合性",
+        "中性",
+        "敏感性"
+      ],
+      "benefits": "质地清爽，补水后帮助维持水润感",
+      "suitableProblems": [
+        "干燥",
+        "缺水",
+        "紧绷"
+      ],
+      "avoidWith": [],
+      "id": "moisturizer-8",
+      "priceLevel": "under100"
+    },
+    {
+      "category": "serum",
+      "price": 55,
+      "name": "清爽水感精华",
+      "ingredients": [
+        "烟酰胺",
+        "PCA锌",
+        "金缕梅提取物"
+      ],
+      "skinTypes": [
+        "油性",
+        "混合性"
+      ],
+      "benefits": "清爽不黏腻，帮助维持哑光肤感",
+      "suitableProblems": [
+        "出油",
+        "T区油光",
+        "毛孔"
+      ],
+      "avoidWith": [],
+      "id": "serum-9",
+      "priceLevel": "under100"
+    },
+    {
+      "category": "mask",
+      "price": 35,
+      "name": "温和补水面膜（5片）",
+      "ingredients": [
+        "透明质酸钠",
+        "甘油",
+        "芦荟提取物"
+      ],
+      "skinTypes": [
+        "所有肤质"
+      ],
+      "benefits": "短时补水，敷后肤感柔软",
+      "suitableProblems": [
+        "干燥",
+        "缺水"
+      ],
+      "avoidWith": [],
+      "id": "mask-5",
+      "priceLevel": "under100"
+    },
+    {
+      "category": "toner",
+      "price": 49,
+      "name": "清爽平衡爽肤水",
+      "ingredients": [
+        "金缕梅提取物",
+        "甘油",
+        "泛醇"
+      ],
+      "skinTypes": [
+        "油性",
+        "混合性"
+      ],
+      "benefits": "二次清洁，帮助保持清爽",
+      "suitableProblems": [
+        "出油",
+        "毛孔",
+        "毛孔粗大"
+      ],
+      "avoidWith": [],
+      "id": "toner-7",
+      "priceLevel": "under100"
+    },
+    {
+      "category": "sunscreen",
+      "price": 59,
+      "name": "轻薄防晒乳",
+      "ingredients": [
+        "氧化锌",
+        "甘油",
+        "生育酚"
+      ],
+      "skinTypes": [
+        "所有肤质"
+      ],
+      "benefits": "质地轻薄，帮助抵御紫外线",
+      "suitableProblems": [
+        "所有问题"
+      ],
+      "avoidWith": [],
+      "id": "sunscreen-6",
+      "priceLevel": "under100"
+    },
+    {
+      "category": "moisturizer",
+      "price": 39,
+      "name": "水润保湿凝露",
+      "ingredients": [
+        "透明质酸钠",
+        "甘油",
+        "PCA锌"
+      ],
+      "skinTypes": [
+        "油性",
+        "混合性",
+        "中性"
+      ],
+      "benefits": "清爽水感，补水后肤感舒适",
+      "suitableProblems": [
+        "出油",
+        "缺水",
+        "毛孔"
+      ],
+      "avoidWith": [],
+      "id": "moisturizer-9",
+      "priceLevel": "under100"
+    }
+  ]
+}
