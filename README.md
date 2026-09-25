@@ -122,6 +122,15 @@ LLM_PROVIDER=deepseek        # deepseek / zhipu / ollama / openrouter / custom
 LLM_API_KEY=sk-...
 ```
 
+### 可选：配置站点地址
+
+分享卡片的 og 缩略图和 sitemap 需要绝对地址。部署到自有域名时建议显式配置，
+否则会退回 `localhost`（分享出去的卡片就没有缩略图）：
+
+```bash
+NEXT_PUBLIC_SITE_URL=https://你的域名
+```
+
 ---
 
 ## 项目结构
