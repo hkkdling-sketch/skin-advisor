@@ -141,6 +141,10 @@ npm run dev          # → http://127.0.0.1:3000
 **不需要任何 Key 就能完整跑通。** 图像分析和大模型都会自动降级：
 前者用问卷推断肤质，后者沿用规则生成的文案。
 
+> **Windows 用户**：可以直接双击 `start.bat`。它顺手绕开了两个常见坑——
+> Next.js 启动时递归删 `.next` 撞上批量删除保护导致崩溃，以及系统代理把
+> `localhost` 也一并转发导致页面白屏（启动浏览器时加了 `--proxy-bypass-list`）。
+
 ### 可选：启用真实图像分析
 
 ```bash
@@ -194,7 +198,9 @@ scripts/
 ├─ diag-engine.js            推荐引擎体检（npm run diag）
 └─ capture-screenshots.cjs   自动生成 README 截图（npm run shots）
 
-docs/screenshots/            README 用截图
+docs/
+├─ screenshots/              README 用截图
+└─ research.md               立项前的调研报告
 ```
 
 ### 脚本
@@ -205,6 +211,15 @@ npm run shots    # 自动重跑一遍流程并重新生成 docs/screenshots/（�
 ```
 
 `npm run shots` 用系统已装的 Edge 做无头浏览器，不额外下载 Chromium。
+
+### 立项前的调研
+
+动手写代码之前，先用 GitHub REST API 逐个核实了 12 个同方向开源项目，覆盖皮肤检测、
+痤疮分析、护肤流程推荐、数据集汇总四个方向，并重点排查了它们的 License（多数仓库
+**没有 License 文件**，意味着默认保留所有权利，商用需逐项授权）。
+
+结论写在 [`docs/research.md`](docs/research.md)：MVP 阶段不该自训练皮肤模型，
+而应复用社区已验证的技术栈。这份报告直接决定了本项目的技术选型。
 
 ---
 
