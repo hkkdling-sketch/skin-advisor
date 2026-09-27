@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "diag": "tsc src/lib/mockEngine.ts --outDir .tmp-verify --module commonjs --target ES2019 --moduleResolution node --resolveJsonModule --esModuleInterop --skipLibCheck --noEmitOnError false && node _diag6.js"
+    "diag": "tsc src/lib/mockEngine.ts --outDir .tmp-verify --module commonjs --target ES2019 --moduleResolution node --resolveJsonModule --esModuleInterop --skipLibCheck --noEmitOnError false && node scripts/diag-engine.js",
+    "shots": "node scripts/capture-screenshots.cjs"
   },
   "dependencies": {
     "next": "14.2.15",

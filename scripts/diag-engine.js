@@ -1,8 +1,13 @@
-// 全面体检（修正版）
-// 上一版诊断用错了调用方式：buildMockResult 只收 (photo, answers, budget, real) 四个参数，
-// 多传的 analysis 被忽略，导致所有用例实际都跑在默认场景上，结论不可信。
-// 这里改成：q1 传选项 id、real 传指标（不传 q2 时肤质由 real 推断）。
-const { buildMockResult } = require("./.tmp-verify/lib/mockEngine.js");
+// 推荐引擎全面体检
+//
+// 由 npm run diag 调用：先把 mockEngine.ts 编译到 .tmp-verify/，再跑这个脚本。
+// 覆盖 6 种困扰 × 4 种肤质 × 6 个预算档 = 144 种组合 × 2 套方案 = 288 套方案，
+// 检查：空方案 / 单品方案 / 方案内重复 / 清单与流程不一致 / 总价超预算 / 功效宣称风险词。
+//
+// 注意：buildMockResult 只收 (photo, answers, budget, realAnalysis) 四个参数。
+// 早期版本多传了一个 analysis 参数，被静默忽略，导致所有用例实际都跑在默认场景上，
+// 结论不可信 —— 所以这里 q1 传选项 id、第 4 个参数传指标。
+const { buildMockResult } = require("../.tmp-verify/lib/mockEngine.js");
 
 // q1 选项 id -> 中文困扰
 const Q1 = ["tzone", "pores", "acne", "redness", "dryness", "dull"];

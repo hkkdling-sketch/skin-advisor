@@ -88,7 +88,7 @@ export default function HomePage() {
                 请使用自然光、素颜或尽量少妆、正面拍摄
               </p>
               <p className="mt-1 text-xs text-skin-light">
-                仅用于本次分析 · 照片会送到你本机的分析服务，不会外传
+                仅用于本次分析 · 处理完成后即丢弃，不保存照片
               </p>
             </div>
           )}

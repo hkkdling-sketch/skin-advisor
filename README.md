@@ -12,6 +12,43 @@
 
 ---
 
+## 界面预览
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="docs/screenshots/01-home.png" width="200"><br>
+      <sub><b>1. 上传照片</b><br>也可跳过，纯问卷出方案</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="docs/screenshots/02-analyzing.png" width="200"><br>
+      <sub><b>2. 特征分析</b><br>分步进度 + 真实请求超时兜底</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="docs/screenshots/03-questions.png" width="200"><br>
+      <sub><b>3. 补充问卷</b><br>困扰支持多选</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <img src="docs/screenshots/04-plan.png" width="200"><br>
+      <sub><b>4. 方案对比</b><br>高性价比 vs 完整，改预算即时重选</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="docs/screenshots/05-heatmap.png" width="200"><br>
+      <sub><b>5. 分区热力图</b><br>7 个维度可切换查看</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="docs/screenshots/06-share-card.png" width="200"><br>
+      <sub><b>6. 分享卡片</b><br>Canvas 手绘，长按保存</sub>
+    </td>
+  </tr>
+</table>
+
+> 截图为真实运行截图，演示照片为程序合成的示意图，非真人。
+
+---
+
 ## 它解决什么问题
 
 市面上的护肤建议要么太泛（"多喝水、早睡觉"），要么太贵（导购只想卖你东西）。
@@ -152,7 +189,22 @@ src/
 │  ├─ scanClient.ts        图像分析客户端
 │  └─ adviceClient.ts      大模型结果合并
 └─ products.json           商品库
+
+scripts/
+├─ diag-engine.js            推荐引擎体检（npm run diag）
+└─ capture-screenshots.cjs   自动生成 README 截图（npm run shots）
+
+docs/screenshots/            README 用截图
 ```
+
+### 脚本
+
+```bash
+npm run diag     # 288 套方案的回归体检：空方案 / 超预算 / 清单与流程不一致 / 功效宣称风险词
+npm run shots    # 自动重跑一遍流程并重新生成 docs/screenshots/（需先 npm i -D puppeteer-core）
+```
+
+`npm run shots` 用系统已装的 Edge 做无头浏览器，不额外下载 Chromium。
 
 ---
 

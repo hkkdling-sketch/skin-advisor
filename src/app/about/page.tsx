@@ -12,7 +12,7 @@ export default function AboutPage() {
           帮助用户根据正脸照片的外观特征与简单问答，建立个人皮肤评估档案，并生成早晚护理流程与分阶段护肤计划。
         </p>
         <ul className="flex flex-col gap-2 text-sm text-skin">
-          <li className="flex gap-2"><span className="text-blush">•</span> 照片仅在浏览器本地处理，不会上传</li>
+          <li className="flex gap-2"><span className="text-blush">•</span> 照片仅用于本次分析，处理完成后即丢弃</li>
           <li className="flex gap-2"><span className="text-blush">•</span> 分析基于外观特征参考，非医疗诊断</li>
           <li className="flex gap-2"><span className="text-blush">•</span> 护理建议为通用护肤逻辑，非处方</li>
         </ul>

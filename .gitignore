@@ -32,6 +32,8 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+# 示例模板必须提交，否则克隆者按 README 找不到这个文件
+!.env.local.example
 
 # vercel
 .vercel
